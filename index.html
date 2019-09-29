@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hundir la Flota</title>
+	<meta charset="utf-8">
+	<script src="hundirLaFlotaVariable.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="tablaVariable.css">
+</head>
+<body id="body" onload="iniciar();">
+
+	<div id="pararJuego"></div>
+
+	<div id="tablas">
+
+		<table id="tablaDispara" border="1"></table>
+
+		<table id="tablaPropia" border="1"></table>
+
+	</div>
+
+	<!--<div id="frameInicio">
+		
+	</div> funcion mostrarinicio -->
+
+	<div id="configurarFlotas">
+
+		<h3>Coloque sus flotas</h3>
+
+
+		<!--<canvas id="flotas_5" width="250" height="50" onclick="seleccionarFlota(this);"></canvas>
+		<canvas id="flotas_4" width="200" height="50" onclick="seleccionarFlota(this);"></canvas>
+		<canvas id="flotas_3" width="150" height="50" onclick="seleccionarFlota(this);"></canvas>
+		<canvas id="flotas_2" width="100" height="50" onclick="seleccionarFlota(this);"></canvas> -->
+
+		<!--<button id="colocarFlotas" class="redondo" onclick="iniciarColocarFlotas(this);">Colocar Flotas</button> -->
+
+		<button id="rotarFlotas" class="redondo" onclick="rotarFlota();">Rotar Flota</button>
+
+		<button onclick="recolocarAleatoriamenteFlota(0);">Colocar Aleatoriamente</button>
+		<button onclick="borrarFlota(0);">Recolocar Flotas</button>
+
+	</div>
+
+	<h1 id="acciones"></h1>
+
+</body>
+</html>
